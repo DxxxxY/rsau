@@ -1,0 +1,11 @@
+{
+    "name": "rsau",
+    "version": "1.0.0",
+    "main": "app.js",
+    "author": "dxxxxy",
+    "type": "module",
+    "license": "GPL-3.0",
+    "scripts": {
+        "start": "tsc && node dist/app.js"
+    }
+}
