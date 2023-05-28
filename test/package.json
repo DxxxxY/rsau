@@ -5,10 +5,8 @@
     "author": "dxxxxy",
     "type": "module",
     "license": "GPL-3.0",
-    "scripts": {
-        "start": "tsc && node dist/test/app.js"
-    },
-    "devDependencies": {
-        "@types/node": "^20.2.5"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DxxxxY/iplim.git"
     }
 }

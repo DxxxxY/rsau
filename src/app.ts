@@ -1,1 +1,3 @@
-console.log("Hello World")
+export const init = () => {
+    console.log(process.cwd())
+}
