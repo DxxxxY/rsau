@@ -1,0 +1,1 @@
+require("../index")(require("./package.json"))

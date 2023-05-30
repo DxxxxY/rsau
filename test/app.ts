@@ -1,1 +1,0 @@
-(await import("../src/app.js")).init()

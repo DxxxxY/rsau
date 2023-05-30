@@ -1,12 +1,11 @@
 {
-    "name": "rsau",
+    "name": "iplim",
     "version": "1.0.0",
     "main": "app.js",
     "author": "dxxxxy",
-    "type": "module",
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DxxxxY/iplim.git"
+        "url": "https://github.com/DxxxxY/iplim"
     }
 }
