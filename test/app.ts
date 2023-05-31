@@ -1,0 +1,1 @@
+require("../src")(require("./package.json"))

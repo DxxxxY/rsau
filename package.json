@@ -4,10 +4,13 @@
     "author": "dxxxxy",
     "license": "GPL-3.0",
     "scripts": {
-        "start": "cd test && node app.js"
+        "start": "tsc && cd dist/test && node app.js"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/DxxxxY/rsau.git"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.5"
     }
 }

@@ -1,7 +1,7 @@
 {
     "name": "iplim",
     "version": "1.0.0",
-    "main": "app.js",
+    "main": "app.ts",
     "author": "dxxxxy",
     "license": "GPL-3.0",
     "repository": {
