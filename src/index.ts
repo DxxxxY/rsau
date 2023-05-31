@@ -5,6 +5,7 @@ module.exports = async(localPkg) => {
     //if out of date
     if (localPkg.version < upstreamPkg.version) {
         //download and overwrite everything
+        console.log("Out of date, updating...")
     }
 }
 

@@ -4,13 +4,17 @@
     "author": "dxxxxy",
     "license": "GPL-3.0",
     "scripts": {
-        "start": "tsc && cd dist/test && node app.js"
+        "build": "rimraf dist && tsc && copyfiles -u 1 test/package.json dist/test",
+        "run": "node dist/test/app.js",
+        "test": "npm run build && npm run run"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/DxxxxY/rsau.git"
     },
     "devDependencies": {
-        "@types/node": "^20.2.5"
+        "@types/node": "^20.2.5",
+        "copyfiles": "^2.4.1",
+        "rimraf": "^5.0.1"
     }
 }
